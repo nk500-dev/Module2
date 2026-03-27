@@ -1,0 +1,20 @@
+/*GLOBAL CSS*/
+*{
+    font-size: 30px;
+    font-weight: 500;
+}
+/*External h3 element css*/
+h3{
+    color:blue
+}
+.myclass{
+    font-style: italic;
+    font-size: 20px;
+}
+#myid{
+    color:brown
+}
+/*Group Selector*/
+h1,h4{
+    background-color: aqua;
+}
