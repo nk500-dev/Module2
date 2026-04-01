@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          
+            @keyframes example {
+            0% {background-color: red  ;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+            100% {background-color: green;}
+            }
+            #animation{
+                height: 100px;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+            #animation2{
+                height: 100px;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Animation</h2>
+        <div id="animation">
+            <h1>Animation</h1>
+        </div>
+        <div id="animation2">
+
+        </div>
+    </body>
+</html>
