@@ -1,0 +1,28 @@
+ol > li > ul > li{
+    color:aqua;
+}
+h1 + p {
+    color: green;
+}
+a:hover{
+    color: pink;
+}
+a:active{
+    color: blue;
+}
+p:first-line{
+    color:blueviolet;
+}
+p::first-letter{
+    color: orange;
+    font-size: 30px;
+}
+li:nth-child(2){
+    color:bisque;
+}
+li:nth-child(3n){
+    color:salmon;
+}
+div:not(.class1){
+    border: 3px solid blue;
+}
