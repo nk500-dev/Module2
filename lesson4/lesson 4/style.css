@@ -2,7 +2,7 @@ ol > li > ul > li{
     color:aqua;
 }
 h1 + p {
-    color: green;
+    color: green !important;
 }
 a:hover{
     color: pink;
@@ -13,7 +13,7 @@ a:active{
 p:first-line{
     color:blueviolet;
 }
-p::first-letter{
+p:first-letter{
     color: orange;
     font-size: 30px;
 }
